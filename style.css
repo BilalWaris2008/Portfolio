@@ -183,5 +183,11 @@ p {
     font-size: 2rem;
     color: var(--main-color);
     margin: 0 .8rem;
+    transition: .3s;
+}
+
+.home-info .btn-sci .sci a:hover{
+    background: var(--main-color);
+    color: var(--bg-color);
 }
 
