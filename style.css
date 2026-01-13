@@ -118,7 +118,7 @@ a:hover .tool-tip {
     height: 100%;
     transform-style: preserve-3d;
     transform-origin: 50% 50% -50vw;
-    transform: rotateY(-60deg);
+    transform: rotateY(-90deg);
 }
 
 .section {
@@ -138,7 +138,8 @@ a:hover .tool-tip {
     transform: translateX(50vw) translateZ(-50vw) rotateY(90deg);
 }
 
-.home {
+.home,
+.about {
     display: flex;
     align-items: center;
     gap: 5rem;
@@ -224,4 +225,13 @@ a:hover .tool-tip {
     display: block;
     width: 85%;
     object-fit: cover;
+}
+
+.img-box.about-img{
+    background: transparent;
+    box-shadow: 0 0 2rem var(--main-color),inset 0 0 1rem var(--main-color);
+}
+
+.img-box.about-img img{
+    z-index: -1;
 }
