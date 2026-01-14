@@ -299,3 +299,18 @@ a:hover .tool-tip {
 .tab-list h3 {
     font-size: 2.5rem;
 }
+
+.tab-wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.tab-grid{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(.8);
+}
