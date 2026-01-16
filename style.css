@@ -356,6 +356,11 @@ a:hover .tool-tip {
 
 .resume-box.skills .resume-item i {
     font-size: 8rem;
+    transition: .3s;
+}
+
+.resume-box.skills .resume-item i:hover{
+    color: var(--main-color);
 }
 
 .resume-box.skills .resume-item p{
