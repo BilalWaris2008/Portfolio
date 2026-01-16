@@ -353,3 +353,7 @@ a:hover .tool-tip {
 .resume-box.skills .resume-item {
     align-items: center;
 }
+
+.resume-box.skills .resume-item i {
+    font-size: 8rem;
+}
