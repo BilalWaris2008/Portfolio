@@ -550,3 +550,9 @@ a:hover .tool-tip,
     color: var(--main-color);
     margin-bottom: 1rem;
 }
+
+.contact-form .field-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
