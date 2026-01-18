@@ -496,6 +496,19 @@ a:hover .tool-tip,
 }
 
 .portfolio-item .service-icon .icon{
-    font-size: .5rem;
+    font-size: 5rem;
     margin-left: -.3rem;
+    transition: .3s;
+}
+
+.portfolio-item:hover .service-icon .icon{
+    color: var(--main-color);
+}
+
+.portfolio-item:hover .service-icon a{
+    background: var(--main-color);
+}
+
+.portfolio-item .service-icon a i{
+    transform: rotate(-135deg);
 }
