@@ -605,7 +605,7 @@ a:hover .tool-tip,
     }
 }
 
-/* @media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {
     .section {
         padding: 0 4%;
     }
@@ -620,7 +620,7 @@ a:hover .tool-tip,
         padding-top: 1.5rem;
         padding-bottom: 18rem;
     }
-}
+} 
 
 @media screen and (max-width: 768px) {
     html {
@@ -656,4 +656,4 @@ a:hover .tool-tip,
     .contact{
         padding-bottom: 16rem;
     }
-} */
+} 
