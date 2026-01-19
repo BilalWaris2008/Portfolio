@@ -1,8 +1,18 @@
+const navs = document.querySelectorAll('.nav-list li');
+
 const resumeLists = document.querySelectorAll('.resume-list');
 const resumeBoxs = document.querySelectorAll('.resume-box');
 
 const portfolioLists = document.querySelectorAll('.portfolio-list');
 const portfolioBoxs = document.querySelectorAll('.portfolio-box');
+
+// navbar actions and all actions along with cube rotation when navbar is clicked
+navs.forEach((nav, idx) => {
+    nav.addEventListener('click', () => {
+        document.querySelector('.nav-list li.active').classList.remove('active');
+        nav.classList.add('active');
+    })
+});
 
 // resume section when clicking tab list
 resumeLists.forEach((list, idx) => {
