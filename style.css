@@ -736,8 +736,8 @@ a:hover .tool-tip,
 
 @media screen and (max-width: 350px) {
     .img-box {
-        width: 25rem;
-        height: 25rem;
+        width: 24rem;
+        height: 24rem;
     }
 
     .tab-list h3 {
